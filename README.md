@@ -5,7 +5,7 @@
 This document is a walkthrough on how to deploy an application to Kubernetes. As an example, we will take the ExampleApp application that will listen on port 8800.
 
 ## Deploying application to Kubernetes
-**Prerequisites**: Docker. This tutorial requires usage of Docker, so make sure you have it installed on your machine. Here you can find information on how to install the latest version of Docker for your OS.
+**Prerequisites**: Docker. This tutorial requires usage of Docker, so make sure you have it installed on your machine. [Here](https://docs.docker.com/desktop/) you can find an information on how to install the latest version of Docker for your OS.
 
 Deploying application to Kubernetes takes few steps:
 * Creating an image of an application, 
@@ -33,7 +33,7 @@ Where:
 
 │    ├── `application/`  - Folder that will contain the Dockerfile for the application.
 
-:warning: We reccomend you to keep your project directory structured and put the application files and Docker files in their respective folders.
+:warning: It is important to keep project directory structured and put the application files and Docker files in their respective folders.
 
 **2.**	Now, let’s set our application folder. Add to `quickstart_docker/application` folder the following application.py file:
 ~~~~
@@ -84,7 +84,7 @@ Where:
 
 `-t exampleapp` – tagging the application image, so we can find it later.
 
-If you'd like to dig deeper into building Docker images, you can find more information here https://docs.docker.com/engine/reference/builder/.
+If you'd like to dig deeper into building Docker images, you can find more information [here](https://docs.docker.com/engine/reference/builder/).
 
 **6.**	Our application image is now ready. Let’s verify the successful build of the ExampleApp image by typing the following command in the terminal:
 ~~~~
