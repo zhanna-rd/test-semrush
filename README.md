@@ -2,7 +2,7 @@
 
 **Kubernetes** is an open-source system for automating deployment, scaling, and management of containerized applications. Every year, thousands of companies move their services to cloud. Kubernetes is one of the most popular cloud solutions today. 
 
-This document is a walkthrough on how to deploy an application to Kubernetes. As an example, we will take the ExampleApp application that will listen on port 8800.
+This document is a walkthrough on how to deploy an application to Kubernetes. As an example, we will deploy the ExampleApp application that will listen on port 8800.
 
 ## Deploying application to Kubernetes
 **Prerequisites**: Docker. To follow through with this tutorial, you will need to have Docker installed on your machine. [Here](https://docs.docker.com/desktop/) you can find an information on how to install the latest version of Docker for your OS.
